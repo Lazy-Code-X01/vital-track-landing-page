@@ -42,14 +42,14 @@ const DiagnosisSection = () => {
         </h2>
 
         <div className="flex flex-row gap-10 border-1 border-gray-300 p-6">
-          <img src="/people-vector.svg" alt="people-icon" />
+          <img src="/people-Vector.svg" alt="people-icon" />
           <div className="flex flex-col gap-2">
             <p className="text-lg font-bold"> Centralized Data Management </p>
             <p className="text-sm text-gray-900"> All data in one place </p>
           </div>
         </div>
         <div className="flex flex-row gap-10 border-1 border-gray-300 p-6">
-          <img src="/person-vector.svg" alt="person-icon" />
+          <img src="/person-Vector.svg" alt="person-icon" />
           <div className="flex flex-col gap-2">
             <p className="text-lg font-bold"> Student Data Management </p>
             <p className="text-sm text-gray-900">
@@ -87,28 +87,28 @@ const DiagnosisSection = () => {
         <div className="flex flex-row gap-4">
           <span>
             {" "}
-            <img src="/good-vector.svg" alt="" />{" "}
+            <img src="/good-Vector.svg" alt="" />{" "}
           </span>
           <p> Tracking of Student's Health </p>
         </div>
         <div className="flex flex-row gap-4">
           <span>
             {" "}
-            <img src="/good-vector.svg" alt="" />{" "}
+            <img src="/good-Vector.svg" alt="" />{" "}
           </span>
           <p> Efficient Record Keeping </p>
         </div>
         <div className="flex flex-row gap-4">
           <span>
             {" "}
-            <img src="/good-vector.svg" alt="" />{" "}
+            <img src="/good-Vector.svg" alt="" />{" "}
           </span>
           <p> Impecable methods </p>
         </div>
         <div className="flex flex-row gap-4">
           <span>
             {" "}
-            <img src="/good-vector.svg" alt="" />{" "}
+            <img src="/good-Vector.svg" alt="" />{" "}
           </span>
           <p> Prolific clarity </p>
         </div>

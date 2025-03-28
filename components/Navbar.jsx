@@ -11,21 +11,26 @@ const Navbar = () => {
     <nav className="w-full px-6 py-4">
       <div className="flex items-center justify-between">
         {/* Logo and brand */}
-        <div className="flex items-center gap-2">
-          {/* You'll need to add your logo image here */}
-          <Image
-            src="/vital-track-logo.png"
-            alt="Vital Tracks Logo"
-            width={32}
-            height={32}
-          />
-          <span className="text-lg font-semibold text-gray-800">
-            VITAL TRACKS
-          </span>
+        <div className="flex gap-2">
+          <Link href="/" className="navbar-brand flex items-center gap-2">
+            <Image
+              src="/vital-track-logo.png"
+              alt="Vital Track Logo"
+              width={30}
+              height={30}
+            />
+            <span className="font-bold text-lg text-gray-800">Vital Track</span>
+          </Link>
         </div>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
+          <Link
+            href="/"
+            className="text-gray-600 hover:text-gray-900 transition-colors"
+          >
+            Home
+          </Link>
           <Link
             href="/features"
             className="text-gray-600 hover:text-gray-900 transition-colors"
@@ -80,6 +85,12 @@ const Navbar = () => {
       {/* Mobile Menu */}
       <div className={`md:hidden ${isMenuOpen ? "block" : "hidden"} pt-4`}>
         <div className="flex flex-col gap-4">
+          <Link
+            href="/"
+            className="text-gray-600 hover:text-gray-900 transition-colors py-2"
+          >
+            Home
+          </Link>
           <Link
             href="/features"
             className="text-gray-600 hover:text-gray-900 transition-colors py-2"
